@@ -30,30 +30,32 @@ Beberapa replika dapat digabungkan dalam satu data center untuk replikasi latens
 ### Menjalankan CockroachDB di  Local Cluster (Insecure)
 
 menjalankan CockroachDB
-<img src="https://github.com/nauticas/CockroachDB/blob/master/img/graphql.png" width="70%">
+<img src="https://github.com/nauticas/CockroachDB/blob/master/img/run.png" width="70%">
 
 ##### 1. Menjalankan node pertama
 
-##### ![st1](https://github.com/nauticas/CockroachDB/img/st1.png)
+<img src="https://github.com/nauticas/CockroachDB/blob/master/img/st1.png">
 
 perintah ini untuk membuat node pada mode tidak aman
 
 ##### 2. menambahkan node kedua dan ketiga pada cluster
 
-##### ![st2](https://github.com/nauticas/CockroachDB/img/st2.png)
+<img src="https://github.com/nauticas/CockroachDB/blob/master/img/st2.png">
 
-buka terminal baru kemudian buat node ke 3:![st22](https://github.com/nauticas/CockroachDB/img/st22.png)
+buka terminal baru kemudian buat node ke 3:
+<img src="https://github.com/nauticas/CockroachDB/blob/master/img/st22.png">
 
 untuk menghubungkan antar node maka dibutuhkan parameter --join 
 
 ##### 3. Uji cluster dengan membuat databse dan tabel kemudian memasukan data
 
-##### ![st3](https://github.com/nauticas/CockroachDB/img/st3.png)
+<img src="https://github.com/nauticas/CockroachDB/blob/master/img/st3.png"> 
 
-![st33](https://github.com/nauticas/CockroachDB/img/st33.png)
+<img src="https://github.com/nauticas/CockroachDB/blob/master/img/st33.png">
+
 
 ##### Memamntau cluster
 
-Akses [UI Admin](https://www.cockroachlabs.com/docs/v2.0/admin-ui-overview) untuk custer dengan membuka browser pada alamat `http://localhost:8080`
+Akses UI Admin untuk custer dengan membuka browser pada alamat `http://localhost:8080`
 
-![st4](https://github.com/nauticas/CockroachDB/img/st4.png)
+<img src="https://github.com/nauticas/CockroachDB/blob/master/img/st4.png">
