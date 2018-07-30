@@ -30,8 +30,7 @@ Beberapa replika dapat digabungkan dalam satu data center untuk replikasi latens
 ### Menjalankan CockroachDB di  Local Cluster (Insecure)
 
 menjalankan CockroachDB
-
-![run](https://github.com/nauticas/CockroachDB/img/run.png)
+<img src="https://github.com/nauticas/CockroachDB/blob/master/img/graphql.png" width="70%">
 
 ##### 1. Menjalankan node pertama
 
